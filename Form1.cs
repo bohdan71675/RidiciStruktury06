@@ -52,8 +52,6 @@ namespace RidiciStruktury06
                 int cifSoucet = 0;
                 int cislo = int.Parse(textBox1.Text);
 
-                if (cislo != 0)
-                {
                     do
                     {
                         int cifra = cislo % 10;
@@ -61,7 +59,7 @@ namespace RidiciStruktury06
                         cislo /= 10;
 
                     } while (cislo > 0);
-                }
+
                 MessageBox.Show("Ciferny soucet je " + cifSoucet);
             }
         }
