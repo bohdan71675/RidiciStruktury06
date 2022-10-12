@@ -51,6 +51,7 @@ namespace RidiciStruktury06
             {
                 int cifSoucet = 0;
                 int cislo = int.Parse(textBox1.Text);
+
                 if (cislo != 0)
                 {
                     do
